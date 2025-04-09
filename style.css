@@ -26,16 +26,19 @@ nav {
     gap: 2rem;
     list-style: none;
 }
+.nav-linke:hover{
+    filter: brightness(0);
+}
 
 .nav-link {
     text-transform: uppercase;
     font-size: 15px;
     cursor: pointer;
-    color: rgb(15, 15, 32);
+    color: rgb(116, 116, 121);
     font-weight: 700;
     background-color: transparent;
-}
 
+}
 
 
 .nav-linke button {
@@ -230,10 +233,6 @@ nav {
 .socials div {
     display: flex;
     gap: 1rem;
-}
-
-.socials img {
-    cursor: pointer;
 }
 
 .socials div img:hover {
